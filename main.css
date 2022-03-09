@@ -8,6 +8,8 @@ body{
     background-image: url(./Assets/Background.jpg);
     background-size: auto;
     background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
 
@@ -74,6 +76,8 @@ a{
     padding: 0 0 100px 0;
     
 } */
+
+
 
 
 #nebulosas{

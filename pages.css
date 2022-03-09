@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    padding: 2vh;
+    text-align: justify;
+}
+
+#indice_nebulosas{
+    width: 80vw;
+    height: 28vh;
+    justify-content: center;
+    background-color: #666;
+    margin: 3vh 8vw;
+    padding: 3vh;
+
+}
+
+#indice_galaxias{
+    width: 80vw;
+    height: 38vh;
+    justify-content: center;
+    background-color: #666;
+    margin: 3vh 8vw;
+    padding: 3vh;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin: 1vh 0;
+}
+
+.title{
+    margin: 3vh 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.subtitle{
+    margin: 2vh 0;
+    font-size: 1.5rem;
+}

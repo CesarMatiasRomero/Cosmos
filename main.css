@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./Assets/Background.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* header{
+    background-image: url(./Assets/Cosmos.jpg); 
+    background-color: transparent;
+    background-size: 100vw;
+    background-position: 10px;
+    font-family: sans-serif;
+    width: 100%;
+    height: 5vh;
+    margin-bottom: 200px;
+
+}  */
+
+ul{
+    list-style: none;
+    display: none;
+}
+
+input:checked ~ ul{
+    display: block;
+}
+
+nav input{
+    display: none;
+}
+
+label {
+    background-color: transparent;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+}
+
+
+a{
+    /* padding: 20px 5px;
+    text-align: center; */
+    color: #fff;
+    display: block;
+    background-color: transparent;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+    
+}
+/* 
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 0 100px 0;
+    
+} */
+
+
+#nebulosas{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+#nebulosas img{
+    background-color: white;
+    background-clip: padding-box;
+    border: 10px solid rgba(255,255,255,0.5);
+    border-radius: 10px;
+      
+}
+
+#galaxias{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+#galaxias img{
+    padding: 30px;
+}
+

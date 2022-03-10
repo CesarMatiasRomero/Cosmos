@@ -6,34 +6,61 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portada{
+    width: 100%;
 }
 
 .container{
-    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    /* margin: 0 3vh; */
+    background-color: #fff;
+    padding: 5vh 0;
     text-align: justify;
+    
 }
 
 #indice_nebulosas{
-    width: 80vw;
+    width: 80%;
     height: 28vh;
-    justify-content: center;
-    background-color: #666;
-    margin: 3vh 8vw;
-    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    background-color: rgba(199, 194, 194, 0.466);
+    /* margin: 3vh 5vw;
+    padding: 3vh; */
+    border-radius: 10px;
+    border: 1px solid #000;
+
 
 }
 
 #indice_galaxias{
     width: 80vw;
     height: 38vh;
-    justify-content: center;
-    background-color: #666;
-    margin: 3vh 8vw;
+    align-items: center;
+    align-self: center;
+    background-color: rgba(199, 194, 194, 0.466);
+    margin: 3vh 2vw;
     padding: 3vh;
+    border-radius: 10px;
+    border: 1px solid #000;
 }
+
+
 
 h1{
     text-align: center;
+    margin: 10vw 0;
 }
 
 h2{
@@ -50,4 +77,13 @@ h2{
 .subtitle{
     margin: 2vh 0;
     font-size: 1.5rem;
+    text-align: center;
+}
+
+p{
+    padding: 3vw;
+}
+
+img{
+    width: 100%;
 }

@@ -1,3 +1,4 @@
+/*
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +16,7 @@ body{
 
 
 
-/* header{
+header{
     background-image: url(./Assets/Cosmos.jpg); 
     background-color: transparent;
     background-size: 100vw;
@@ -25,7 +26,7 @@ body{
     height: 5vh;
     margin-bottom: 200px;
 
-}  */
+}  
 
 ul{
     list-style: none;
@@ -56,8 +57,8 @@ label {
 
 
 a{
-    /* padding: 20px 5px;
-    text-align: center; */
+    padding: 20px 5px;
+    text-align: center; 
     color: #fff;
     display: block;
     background-color: transparent;
@@ -67,7 +68,7 @@ a{
     text-decoration: none;
     
 }
-/* 
+
 #menu{
     display: flex;
     flex-direction: row;
@@ -75,7 +76,7 @@ a{
     width: 100%;
     padding: 0 0 100px 0;
     
-} */
+}
 
 
 
@@ -109,4 +110,4 @@ a{
 #galaxias img{
     padding: 30px;
 }
-
+*/

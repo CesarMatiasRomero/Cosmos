@@ -12,11 +12,6 @@ body{
     
 }
 
-
-body{
-    font-family: 'Montserrat', sans-serif;
-}
-
 #login-box {
     border-radius: 20px;
     width: 60%;
@@ -96,4 +91,38 @@ a{
     list-style: none;
     text-decoration: none;
     
+}
+
+p{
+    color: white;
+}
+
+.registrate{
+    text-decoration: dashed;
+}
+
+@media only screen and (min-width: 768px){
+
+    #menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 0 100px 0;
+        
+    }
+
+    label {
+        display: none;
+    }
+
+    #login-box {
+        margin-top: 10%;
+    }
+
+    #login-box button{
+        width: 20vw;
+        height: 7vh;
+        margin: 30px 0;
+    }
 }

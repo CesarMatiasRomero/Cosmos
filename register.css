@@ -23,13 +23,14 @@ body{
 #register{
     width: 60%;
     height: 80%;
-    border: 1px solid black;
+    background: #00000080;
     border-radius: 20px;
     padding: 50px 20px;
     
 }
 
 #register h1{
+    text-align: center;
     color: white;
     margin-bottom: 50px;
     margin-top: -35px;
@@ -56,5 +57,36 @@ label {
     color: white;
     border-radius: 25px;
     background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    
+}
+
+input{
+    opacity: 0.3;
+    border-radius: 20px;
+}
+
+@media only screen and (min-width: 768px){
+    body{
+        background-image: url(./Assets/los-pilares-de-la-creacion.jpg);
+        background-position: 25% 35%;
+    }
+
+   .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+   }
+
+   #register{
+       margin-top: 30%;
+   }
+
+   #register button{
+        width: 20vw;
+        height: 7vh;
+        margin-top: 30px;
+        margin-left: 115px;
+   }
+
     
 }
